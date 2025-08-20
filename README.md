@@ -1,25 +1,16 @@
-Otel Fiyat Tahmin Modeli
+📌 OTEL FİYAT TAHMİN MODELİ
 
-Bu proje, farklı şehirlerdeki otellerin özelliklerine göre fiyat tahmini yapan bir regresyon modeli içerir.
+BU PROJE, FARKLI ŞEHİRLERDEKİ OTELLERİN ÖZELLİKLERİNE GÖRE FİYAT TAHMİNİ YAPAN BİR REGRESYON MODELİ İÇERİR.
 
-📌 Veri Seti
+📊 VERİ SETİ
 
-Veri setinde aşağıdaki sütunlar bulunmaktadır:
+VERİ SETİNDE AŞAĞIDAKİ SÜTUNLAR BULUNMAKTADIR:
 
-Özellik	Açıklama
-otel_yildizi	Otelin yıldız sayısı (1–5 arası)
-sehir	Otelin bulunduğu şehir (İzmir, Bodrum, Antalya, İstanbul vb.)
-oda_sayisi	Oteldeki toplam oda sayısı
-denize_yakinlik	Otelin denize uzaklığı (km cinsinden)
-mevsim	Konaklama mevsimi (Yaz, Kış, Bahar, Sonbahar)
-ortalama_puan	Kullanıcıların verdiği ortalama puan (1–10)
-fiyat	Hedef değişken: gecelik fiyat (₺)
-🛠 Kullanılan Teknolojiler
-
-Python
-
-pandas → Veri işleme
-
-scikit-learn → OneHotEncoder, LinearRegression, Pipeline
-
-train_test_split → Eğitim ve test verisinin ayrılması
+ÖZELLİK	AÇIKLAMA
+OTEL_YILDIZI	OTELİN YILDIZ SAYISI (1–5 ARASI)
+SEHIR	OTELİN BULUNDUĞU ŞEHİR (İZMİR, BODRUM, ANTALYA, İSTANBUL VB.)
+ODA_SAYISI	OTELDEKİ TOPLAM ODA SAYISI
+DENİZE_YAKINLIK	OTELİN DENİZE UZAKLIĞI (KM CİNSİNDEN)
+MEVSIM	KONAKLAMA MEVSİMİ (YAZ, KIŞ, BAHAR, SONBAHAR)
+ORTALAMA_PUAN	KULLANICILARIN VERDİĞİ ORTALAMA PUAN (1–10)
+FIYAT	HEDEF DEĞİŞKEN: GECELİK FİYAT (₺)
